@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - Online Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="slide">
+    <img src="images/slide3.jpg" alt="Slide 3">
+</div>
+
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">ShopEase</div>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search products...">
+        </div>
+
+        <div class="icons">
+            <a href="#" class="cart">🛒 <span id="cart-count">0</span></a>
+            <a href="#" class="login">Login</a>
+        </div>
+    </header>
+
+    <!-- CATEGORY BAR -->
+    <nav class="categories">
+        <button data-category="all">All</button>
+        <button data-category="electronics">Electronics</button>
+        <button data-category="fashion">Fashion</button>
+        <button data-category="home">Home</button>
+        <button data-category="beauty">Beauty</button>
+        <button data-category="sports">Sports</button>
+    </nav>
+
+    <!-- HERO BANNER -->
+    <section class="hero">
+        <div class="slider">
+            <img src="images/banner1.jpg" class="slide active">
+            <img src="images/banner2.jpg" class="slide">
+            <img src="images/banner3.jpg" class="slide">
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="product-section">
+        <h2>Featured Products</h2>
+
+        <div id="product-list" class="product-list"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
